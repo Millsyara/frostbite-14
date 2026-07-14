@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingEyesBase
+  id: ClothingEyesGlassesBuran
+  name: Зимние защитные очки "Буран"
+  description: Стильные светоотражающие очки. Вам определённо идёт!
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Eyes/Glasses/buran_glasses.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Eyes/Glasses/buran_glasses.rsi
+  - type: EyeProtection
+  - type: IdentityBlocker
+    coverage: EYES

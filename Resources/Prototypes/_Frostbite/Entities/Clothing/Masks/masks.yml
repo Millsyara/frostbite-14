@@ -1,0 +1,12 @@
+- type: entity
+  parent: ClothingMaskBase
+  id: ClothingMaskBalaclava
+  name: Балаклава
+  description: Самая обычная балаклава. Используется широким кругом людей - от лыжников до наёмников.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Mask/balaclava.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Mask/balaclava.rsi
+  - type: Item
+    size: Tiny

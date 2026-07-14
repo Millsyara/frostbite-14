@@ -1,0 +1,25 @@
+- type: entity
+  parent: ClothingHandsGlovesColorBlack
+  id: ClothingHandsGlovesClassC
+  name: Перчатки класса "С"
+  description: Стандартные перчатки, обладающие термостойкостью класса "С"
+  components:
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative
+  - type: TemperatureProtection
+    coolingCoefficient: 0.971 # класс термостойкости "С"
+
+- type: entity
+  parent: ClothingHandsGlovesClassC
+  id: ClothingHandsGlovesNorth
+  name: Зимние тактические перчатки "Север-С"
+  description: Самые распространённые зимние перчатки среди оперативников. Обладают термостойкостью класса "С" и предназначены для проведения операций в условиях пониженных температур.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Hands/Gloves/north_gloves.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Hands/Gloves/north_gloves.rsi
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-insulative

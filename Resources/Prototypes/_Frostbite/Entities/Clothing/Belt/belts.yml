@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingBeltStorageBase
+  id: ClothingBeltWebbingBars
+  name: Разгрузка РПС "Барс"
+  description: Стандартная разгрузка широкого применения. Сравнительно вместительная и довольно универсальная.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Belt/bars_webbing.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Belt/bars_webbing.rsi
+    clothingVisuals:
+      outerclothing:
+      - state: equipped-BELT

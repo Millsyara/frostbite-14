@@ -1,0 +1,24 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitClassC
+  name: Комплект униформы класса "С"
+  description: Однослойная униформа, обладающая термостойкостью класса "С", предназначенная для проведения операций в условиях пониженных температур.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Uniforms/Jumpsuit/north_suit.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Uniforms/Jumpsuit/north_suit.rsi
+  - type: TemperatureProtection
+    coolingCoefficient: 0.874 # класс термостойкости "С"
+
+
+- type: entity
+  parent: ClothingUniformJumpsuitClassC
+  id: ClothingUniformJumpsuitNorth
+  name: Комплект униформы "Север-С"
+  description: Стандартная однослойная униформа боевого комплекта одежды "Север-С". Обладает термостойкостью класса "С" и предназначена для проведения операций в условиях пониженных температур.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Uniforms/Jumpsuit/north_suit.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Uniforms/Jumpsuit/north_suit.rsi

@@ -1,0 +1,11 @@
+- type: entity
+  parent: ClothingShoesBaseButcherable
+  id: ClothingShoesBootsIcebreaker
+  name: Зимние тактические ботинки "Ледокол"
+  description: Крепкие зимние ботинки, повидавшие не одну операцию.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Shoes/Boots/icebreaker_boots.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Shoes/Boots/icebreaker_boots.rsi
+  - type: Matchbox

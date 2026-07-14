@@ -1,0 +1,27 @@
+- type: entity
+  parent: ClothingHeadHelmetBase
+  id: ClothingHeadHelmetClassC
+  abstract: true
+  components:
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.9
+        Slash: 0.9
+        Piercing: 0.9
+  - type: HideLayerClothing
+    layers:
+      Hair: HEAD
+  - type: TemperatureProtection
+    coolingCoefficient: 0.874 # класс термостойкости "С"
+
+- type: entity
+  parent: ClothingHeadHelmetClassC
+  id: ClothingHeadHelmetNorth
+  name: Баллистический шлем "Север-С"
+  description: Баллистический шлем боевого комплекта одежды "Север-С". Обладает термостойкостью класса "С" и предназначен для проведения операций в условиях пониженных температур.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Head/Helmets/north_helmet.rsi
+  - type: Clothing
+    sprite: _Frostbite/Clothing/Head/Helmets/north_helmet.rsi

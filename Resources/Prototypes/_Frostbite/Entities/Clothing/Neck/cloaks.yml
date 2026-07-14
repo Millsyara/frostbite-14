@@ -1,0 +1,17 @@
+- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCloakClassC
+  name: Накидка класса "С"
+  description: Стандартная накидка, обладающая термостойкостью класса "С"
+  components:
+  - type: TemperatureProtection
+    coolingCoefficient: 0.971 # класс термостойкости "С"
+
+- type: entity
+  parent: ClothingNeckCloakClassC
+  id: ClothingNeckCloakBlizzard
+  name: Накидка "Метель-С"
+  description: Стандартная маскировочная накидка. Обладает термостойкостью класса "С" и выглядит очень стильно. Незаменима для фарминга ауры и отлично дополняет ваш дрип. Существует исключительно для этого.
+  components:
+  - type: Sprite
+    sprite: _Frostbite/Clothing/Neck/Cloaks/blizzard_cloak.rsi
